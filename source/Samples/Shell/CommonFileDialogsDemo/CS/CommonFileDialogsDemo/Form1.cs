@@ -267,6 +267,7 @@ namespace Microsoft.WindowsAPICodePack.Samples.ShellObjectCFDBrowser
             cfd.EnsureReadOnly = true;
             cfd.IsFolderPicker = true;
             cfd.AllowNonFileSystemItems = true;
+            cfd.RestoreDirectory = false;
 
             if (cfd.ShowDialog() == CommonFileDialogResult.Ok)
             {

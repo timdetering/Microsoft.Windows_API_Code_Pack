@@ -31,9 +31,9 @@ namespace Microsoft.WindowsAPICodePack.Dialogs
         /// file extension list.
         /// </summary>
         /// <param name="rawDisplayName">The name of this filter.</param>
-        /// <param name="extensionList">The list of extensions in 
-        /// this filter. See remarks.</param>
-        /// <remarks>The <paramref name="extensionList"/> can use a semicolon(";") 
+        /// <param name="extensionList">The list of extensions in  this filter. See remarks.</param>
+        /// <remarks>
+        /// The <paramref name="extensionList"/> can use a semicolon(";") 
         /// or comma (",") to separate extensions. Extensions can be prefaced 
         /// with a period (".") or with the file wild card specifier "*.".</remarks>
         /// <permission cref="System.ArgumentNullException">
